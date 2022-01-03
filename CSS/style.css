@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Tesla";
+    src: url('../Tesla/TESLA.ttf');
+}
+body {
+    background-color: #ECE5F0;
+    color: black;
+  overflow: auto;
+}
+
+h1{
+    font-family: 'teslaregular';
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFA630;
+    padding-left: 30px;
+    font-size: large;
+}
+
+  .nav-logo {
+      width: 5em;
+      height: 4em;
+  }
+.header {
+    width: 100%;
+    background-color: #006D77;
+    height: 800px;
+    margin-bottom: 10px;
+
+}
+main {
+    width: 100%;
+    background-color: #F3F3F3;
+    height: 1200px;
+    margin-bottom: 10px;
+}
+.serviceintro {
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background: #ffffff;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    height:55vh;
+    font-size: medium;
+    border-radius: 0.5rem;
+
+}
+
+
+
+.carousel-img{
+height:55vh;
+width:55vw;
+align-items: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .header {
+        width: 100%;
+        background-color: #006D77;
+        height: 900px;
+        margin-bottom: 10px;
+    }
+    .nav-logo {
+        width: 4em;
+        height: 4em;
+    }
+    .carousel-img {
+        height:36vh;
+        width: 70vw;
+        align-items: center;
+    }
+    .serviceintro {
+        box-sizing: border-box;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+            rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        background: #ffffff;
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 10%;
+        height: 30vh;
+        font-size: medium;
+        border-radius: 0.5rem;
+
+    }
+}
