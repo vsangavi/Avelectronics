@@ -24,14 +24,14 @@ h1{
   }
 .header {
     width: 100%;
-    background-color: #006D77;
+    background-color: #c4ccca;
     height: 800px;
     margin-bottom: 10px;
 
 }
 main {
     width: 100%;
-    background-color: #F3F3F3;
+    background-color: #c3dcbc;
     height: 1200px;
     margin-bottom: 10px;
 }
@@ -49,6 +49,9 @@ main {
     border-radius: 0.5rem;
 
 }
+.carousel-item{
+    margin-top: 10%;
+}
 
 
 
@@ -62,7 +65,7 @@ align-items: center;
 @media only screen and (max-width: 1000px) {
     .header {
         width: 100%;
-        background-color: #006D77;
+        background-color: #c4ccca;
         height: 900px;
         margin-bottom: 10px;
     }
