@@ -92,4 +92,7 @@ align-items: center;
         border-radius: 0.5rem;
 
     }
+    .carousel-item {
+        margin-top: 25%;
+    }
 }
