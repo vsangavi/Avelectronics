@@ -2,13 +2,14 @@
     font-family: "Tesla";
     src: url('../Tesla/TESLA.ttf');
 }
+
 body {
     background-color: #ECE5F0;
     color: black;
-  overflow: auto;
+    overflow: auto;
 }
 
-h1{
+h1 {
     font-family: 'teslaregular';
 }
 
@@ -18,23 +19,33 @@ h1{
     font-size: large;
 }
 
-  .nav-logo {
-      width: 5em;
-      height: 4em;
-  }
+.nav-logo {
+    width: 5em;
+    height: 4em;
+}
+
 .header {
     width: 100%;
-    background-color: #c4ccca;
+ 
+   background:#e9e5e4;
+ 
     height: 800px;
-    margin-bottom: 10px;
-
+  
+margin-bottom: 5px;
 }
+
 main {
     width: 100%;
-    background-color: #c3dcbc;
-    height: 1200px;
-    margin-bottom: 10px;
+   background:#e9e5e4;
+   
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    height: 600px;
+   
 }
+
 .serviceintro {
     box-sizing: border-box;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
@@ -44,45 +55,53 @@ main {
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    height:55vh;
+    height: 55vh;
     font-size: medium;
     border-radius: 0.5rem;
 
 }
-.carousel-item{
+
+.carousel-item {
     margin-top: 10%;
 }
 
 
 
-.carousel-img{
-height:55vh;
-width:55vw;
-align-items: center;
+.carousel-img {
+    height: 55vh;
+    width: 55vw;
+    align-items: center;
+}
+.card{
+    background-color: #5a3636;
+    color: #ffffff;
 }
 
 
 @media only screen and (max-width: 1000px) {
     .header {
         width: 100%;
-        background-color: #c4ccca;
-        height: 900px;
+   background:#e9e5e4;
+ height: 900px;
         margin-bottom: 10px;
     }
+
     .nav-logo {
         width: 4em;
         height: 4em;
     }
+
     .carousel-img {
-        height:36vh;
+        height: 36vh;
         width: 70vw;
         align-items: center;
     }
+
     .serviceintro {
         box-sizing: border-box;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
             rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-        background: #ffffff;
+        background: #cca90d;
         padding: 10px;
         text-align: center;
         margin: auto;
@@ -92,6 +111,7 @@ align-items: center;
         border-radius: 0.5rem;
 
     }
+
     .carousel-item {
         margin-top: 25%;
     }
