@@ -27,7 +27,7 @@ h1 {
 .header {
     width: 100%;
  
-   background:#e9e5e4;
+   background:#858382;
  
     height: 800px;
   
@@ -73,6 +73,7 @@ main {
     align-items: center;
 }
 .card{
+    margin-top: -25%;
     background-color: #5a3636;
     color: #ffffff;
 }
