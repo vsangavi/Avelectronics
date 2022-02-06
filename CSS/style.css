@@ -68,8 +68,8 @@ main {
 
 
 .carousel-img {
-    height: 55vh;
-    width: 55vw;
+    height: 65vh;
+    width: 65vw;
     align-items: center;
 }
 .card{
@@ -79,7 +79,7 @@ main {
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1000px) {
     .header {
         width: 100%;
     
