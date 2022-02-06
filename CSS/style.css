@@ -82,7 +82,7 @@ main {
 @media only screen and (max-width: 1000px) {
     .header {
         width: 100%;
-      background:#e9e5e4;
+    
       height: 900px;
         margin-bottom: 10px;
     }
